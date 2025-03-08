@@ -3,9 +3,13 @@ This Python script automates data extraction from PDF reports and updates an Exc
 
 ## Features
 ✅ Extracts structured data from PDFs using pdfplumber
+
 ✅ Cleans and standardizes numeric values (handles percentages, commas, and spaces)
+
 ✅ Dynamically updates an Excel file with extracted data using openpyxl
+
 ✅ Supports monthly data tracking with automatic column selection
+
 ✅ Converts extracted text values into numerical format
 
 ## Installation
@@ -34,6 +38,7 @@ Modify get_cell_for_month() if your Excel file has different column mappings.
 
 ## Notes
 🔹 This script is generic and does not include specific company data.
+
 🔹 If your PDF structure differs, adjust the table indexing in extract_table().
 
 ## License
