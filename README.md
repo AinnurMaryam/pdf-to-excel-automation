@@ -9,19 +9,23 @@ This Python script automates data extraction from PDF reports and updates an Exc
 ✅ Converts extracted text values into numerical format
 
 ## Installation
+
 ### Prerequisites
 Ensure you have Python installed (>=3.7). Install the required dependencies:
   ```bash
   pip install pdfplumber openpyxl
+  ```
 
 ## Usage
 1️⃣ Modify the script to specify your PDF and Excel file paths:
   ```python
   pdf_path = "path/to/your/file.pdf"
   excel_path = "path/to/your/file.xlsx"
+  ```
 2️⃣ Run the script:
   ```bash
   python script.py
+  ```
 3️⃣ The script will extract data from the PDF, clean it, and update the corresponding Excel sheet.
 
 ## Customization
