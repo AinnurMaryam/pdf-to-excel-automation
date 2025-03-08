@@ -33,8 +33,8 @@ Ensure you have Python installed (>=3.7). Install the required dependencies:
 3️⃣ The script will extract data from the PDF, clean it, and update the corresponding Excel sheet.
 
 ## Customization
-Update the table row/column mappings based on your PDF structure.
-Modify get_cell_for_month() if your Excel file has different column mappings.
+- Update the table row/column mappings based on your PDF structure.
+- Modify get_cell_for_month() if your Excel file has different column mappings.
 
 ## Notes
 🔹 This script is generic and does not include specific company data.
